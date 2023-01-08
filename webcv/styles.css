@@ -68,4 +68,7 @@ header img{
     *, .title, .mini-title{
         text-align: center;
     }
+    header > div:first-child{
+        margin: 0;
+    }
 }
