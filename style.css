@@ -30,11 +30,13 @@ section > p {
 
 
 
-
-
+/* HEADER */
+header {
+    background: linear-gradient(-45deg, #0693e3 0%,#000341 100%) fixed;
+}
 /* NAV */
 nav {
-	background: linear-gradient(-45deg, #0693e3 0%,#000341 100%) fixed;
+    background: linear-gradient(-45deg, #0693e3 0%,#000341 100%) fixed;
     border-bottom: 2px solid #4274a9;
     padding-block: 4px;
 }
