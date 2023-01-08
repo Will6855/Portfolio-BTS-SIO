@@ -110,7 +110,7 @@ div#typewriter {
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
-    animation: typing 4s steps(40, end);
+    animation: typing 8s steps(1000, end);
   }
 @keyframes typing {
     from { width: 0 }
