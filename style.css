@@ -1,6 +1,6 @@
 body {
     /* background: linear-gradient(-45deg, #0693e3 0%,#000341 100%) fixed; */
-    background: url(img/bg4.jpg) fixed no-repeat center;
+    background: url(img/bg.jpg) fixed no-repeat center;
     background-size: cover;
     display: grid; 
     grid-template-rows: auto auto 1fr;
@@ -35,14 +35,14 @@ section > p {
 /* HEADER */
 header {
     /* background: linear-gradient(160deg, rgb(6, 147, 227) 0%, rgb(0, 3, 65) 100%) fixed; */
-    background: url(img/bg4.jpg) fixed no-repeat center;
+    background: url(img/bg.jpg) fixed no-repeat center;
     background-size: cover;
 }
 /* NAV */
 nav {
     background: 
         linear-gradient(160deg, rgba(6, 146, 227, 0.5) 0%, rgba(0, 3, 65, 0.5) 100%) fixed, 
-        url(img/bg4.jpg) fixed no-repeat center;
+        url(img/bg.jpg) fixed no-repeat center;
     background-size: cover;
     border-block: 2px solid #4274a9;
     padding-block: 4px;
@@ -68,7 +68,7 @@ nav a:hover {
 /* FOOTER */
 footer {
     /* background: linear-gradient(0deg, #00111c 0%,#047cf6 150%); */
-    background: url(img/bg.jpg) fixed no-repeat center;
+    background: url(img/bg4.jpg) fixed no-repeat center;
     background-size: cover;
     border-top: 2px solid #4274a9;
 }
