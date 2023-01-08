@@ -96,12 +96,6 @@ a.github:hover {
     color: #4173a8;
     border-color: #4173a8;
 }
-/* STAGE */
-#stage {
-    margin-inline: auto;
-}
-
-
 #typewriter {
     overflow: hidden;
     white-space: nowrap;
@@ -111,4 +105,9 @@ a.github:hover {
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
+}
+
+/* STAGE */
+#stage {
+    margin-inline: auto;
 }
