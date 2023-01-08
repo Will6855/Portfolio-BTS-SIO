@@ -132,3 +132,9 @@ input, textarea {
     background: rgba(255, 255, 255, 0.25
     );
 }
+
+@media screen and (max-width: 400px){
+    section.p-5 {
+        padding: 1em!important;
+    }
+}
