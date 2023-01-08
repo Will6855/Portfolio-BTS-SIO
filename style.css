@@ -18,7 +18,7 @@ hr.solid {
 .text-center {
     margin-bottom: 0;
 }
-.name {
+#name {
     text-decoration: none;
 }
 h2 {
@@ -99,4 +99,16 @@ a.github:hover {
 /* STAGE */
 #stage {
     margin-inline: auto;
+}
+
+
+#typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3.5s steps(40, end);
+  }
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
 }
