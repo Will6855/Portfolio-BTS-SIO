@@ -1,0 +1,94 @@
+body {
+    background: linear-gradient(-45deg, #0693e3 0%,#000341 100%) fixed;
+    display: grid; 
+    grid-template-rows: auto auto 1fr;
+    min-height: 100vh;
+}
+hr.solid {
+    border-top: 2px solid;
+    margin-inline: auto;
+    width: 150px;
+    margin-top: 1em;
+    color: #4173a8;
+    opacity: 1;
+}
+.text-justify {
+    text-align: justify;
+}
+.text-center {
+    margin-bottom: 0;
+}
+.name {
+    text-decoration: none;
+}
+h2 {
+    text-decoration: underline 3px;
+}
+section > p {
+    margin-top: 1em;
+}
+
+
+
+
+
+/* NAV */
+nav {
+	background: linear-gradient(-45deg, #0693e3 0%,#000341 100%) fixed;
+    border-bottom: 2px solid #4274a9;
+    padding-block: 4px;
+}
+nav a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+nav a:hover {
+    color: white;
+    text-decoration: underline 4px;
+}
+
+
+/* FOOTER */
+footer {
+    background: linear-gradient(0deg, #00111c 0%,#047cf6 150%);
+    border-top: 2px solid #000000;
+}
+footer > p {
+    margin: 0;
+}
+footer > a.btn {
+    border-radius: 10em;
+    padding: 0.4em;
+    border: 1px solid white;
+    padding-bottom: 7px;
+}
+a.github {
+    content: url(/img/github-mark-white.svg);
+    height: 40px;
+    width: auto;
+}
+a.github:hover {
+    content: url(/img/github-mark.svg);
+    background-color: white;
+}
+
+
+
+/* INDEX */
+#special-link {
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    font-weight: 700;
+}
+#special-link:hover {
+    background: white;
+    text-decoration: 2px underline #4173a8;
+    color: #4173a8;
+    border-color: #4173a8;
+}
+/* STAGE */
+#stage {
+    margin-inline: auto;
+}
