@@ -1,3 +1,7 @@
+* {
+    --blue: #028dff;
+}
+
 body {
     /* background: linear-gradient(-45deg, #0693e3 0%,#000341 100%) fixed; */
     background: url(img/bg.jpg) fixed no-repeat center;
@@ -11,7 +15,7 @@ hr.solid {
     margin-inline: auto;
     width: 150px;
     margin-top: 1em;
-    color: #4173a8;
+    color: var(--blue);
     opacity: 1;
 }
 .text-justify {
@@ -44,7 +48,7 @@ nav {
         linear-gradient(160deg, rgba(6, 146, 227, 0.5) 0%, rgba(0, 3, 65, 0.5) 100%) fixed, 
         url(img/bg.jpg) fixed no-repeat center;
     background-size: cover;
-    border-block: 2px solid #4274a9;
+    border-block: 2px solid var(--blue);
     padding-block: 4px;
 }
 nav a {
@@ -60,7 +64,7 @@ nav a:hover {
     /* background: linear-gradient(45deg, #0693e3 0%,#000341 100%);
     padding: 5px;
     border-radius: 5px;
-    border: 2px solid #4173a8; */
+    border: 2px solid var(--blue); */
     text-decoration: underline 4px;
 }
 
@@ -70,7 +74,7 @@ footer {
     /* background: linear-gradient(0deg, #00111c 0%,#047cf6 150%); */
     background: url(img/bg4.jpg) fixed no-repeat center;
     background-size: cover;
-    border-top: 2px solid #4274a9;
+    border-top: 2px solid var(--blue);
 }
 footer > p {
     margin: 0;
@@ -102,9 +106,9 @@ a.github:hover {
 }
 #special-link:hover {
     background: white;
-    text-decoration: 2px underline #4173a8;
-    color: #4173a8;
-    border-color: #4173a8;
+    text-decoration: 2px underline var(--blue);
+    color: var(--blue);
+    border-color: var(--blue);
 }
 div#typewriter {
     overflow: hidden;
@@ -127,7 +131,7 @@ button#special-link {
     background: #0000;
 }
 input, textarea {
-    border: 2px solid #4173a8;
+    border: 2px solid var(--blue);
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.25
     );
