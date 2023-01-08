@@ -25,23 +25,24 @@
 
                 </ul>
             </nav>
-            <form name="contact" method="POST" data-netlify="true">
-                <input type="hidden" name="subject" 
-                value="Message venant du Portfolio" />
-                <p>
-                  <label>Your Name: <input type="text" name="name" /></label>
-                </p>
-                <p>
-                  <label>Your Email: <input type="email" name="email" /></label>
-                </p>
-                <p>
-                  <label>Message: <textarea name="message"></textarea></label>
-                </p>
-                <p>
-                  <button type="submit">Send</button>
-                </p>
-              </form>
-            </div>
+            <section>
+              <h2>Veuillez remplir ce formulaire afin de pouvoir me contacter :</h2>
+              <form name="contact" method="POST" data-netlify="true">
+                  <input type="hidden" name="subject" value="Message venant du Portfolio" />
+                  <p>
+                    <label><b>Nom</b> (obligatoire)<input type="text" name="name" /></label>
+                  </p>
+                  <p>
+                    <label><b>E-mail</b> (obligatoire)<input type="email" name="email" /></label>
+                  </p>
+                  <p>
+                    <textarea name="message"></textarea>
+                  </p>
+                  <p>
+                    <button type="submit">Envoyer le message</button>
+                  </p>
+                </form>
+              </section>
             <footer class="row text-white text-center">
                 <p>Fait à la main avec &#10084;&#65039;</p>
                 <a href="https://github.com/Will6855" target="_blank" class="btn mb-1 github" style="display: block; margin-inline: auto;"></a>
