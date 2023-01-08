@@ -47,6 +47,12 @@ nav a:hover {
     color: white;
     text-decoration: underline 4px;
 }
+#active {
+    background: linear-gradient(45deg, #0693e3 0%,#000341 100%);
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #4173a8;
+}
 
 
 /* FOOTER */
