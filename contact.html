@@ -25,22 +25,16 @@
 
                 </ul>
             </nav>
-            <section>
+            <section class="col-md-6">
               <h2>Veuillez remplir ce formulaire afin de pouvoir me contacter :</h2>
               <form name="contact" method="POST" data-netlify="true">
                   <input type="hidden" name="subject" value="Message venant du Portfolio" />
-                  <p>
-                    <label><b>Nom</b> (obligatoire)<input type="text" name="name" /></label>
-                  </p>
-                  <p>
-                    <label><b>E-mail</b> (obligatoire)<input type="email" name="email" /></label>
-                  </p>
-                  <p>
-                    <textarea name="message"></textarea>
-                  </p>
-                  <p>
-                    <button type="submit">Envoyer le message</button>
-                  </p>
+                  <div class="row p-2">
+                    <p><label><b>Nom</b> (obligatoire)<input type="text" name="name" /></label></p>
+                    <p><label><b>E-mail</b> (obligatoire)<input type="email" name="email" /></label></p>
+                  </div>
+                  <p class="row m-2"><textarea style="height: 200px" name="message"></textarea></p>
+                  <p><button id="special-link" class="m-2" type="submit">Envoyer le message</button></p>
                 </form>
               </section>
             <footer class="row text-white text-center">
