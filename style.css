@@ -121,3 +121,14 @@ div#typewriter {
 #stage {
     margin-inline: auto;
 }
+
+/* CONTACT */
+button#special-link {
+    background: #0000;
+}
+input, textarea {
+    border: 2px solid #4173a8;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.25
+    );
+}
