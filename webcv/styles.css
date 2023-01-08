@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    background-color: #f1f1f2;
+    text-align: justify;
+    color: black;
+}
+html{
+    margin-bottom: 10px;
+}
+.url{
+    color: black;
+}
+.url:hover{
+    color: rgb(80, 80, 255);
+}
+.name{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.blue{
+    color: rgb(80, 80, 255);
+}
+.status, .title{
+    font-size: 20px;
+}
+.status{
+    font-weight: 500;
+}
+.title{
+    text-decoration: underline;
+}
+.title, .mini-title{
+    font-weight: 800;
+    text-align: left;
+}
+.qr-code{
+    max-height: 250px;
+}
+header *{
+    max-height: 250px;
+}
+header > div:first-child{
+    margin: 15px;
+}
+header img{
+    position: relative;
+    float: right;
+    left: 10px;
+    content: url(Image2.png);
+}
+.right *{
+    background-color: #0000;
+}
+.right {
+    border: solid rgb(130, 130, 246);
+    border-radius: 10px;
+    margin: auto;
+}
+
+@media (max-width: 576px) {
+    header > .img{
+        content: url(Image1.png);
+        margin: auto;
+        width: auto;
+    }
+    *, .title, .mini-title{
+        text-align: center;
+    }
+}
