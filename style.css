@@ -97,11 +97,11 @@ a.github:hover {
     color: #4173a8;
     border-color: #4173a8;
 }
-#typewriter {
+div#typewriter {
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
-    animation: typing 3.5s steps(40, end);
+    animation: typing 4s steps(30, end);
   }
 @keyframes typing {
     from { width: 0 }
