@@ -115,6 +115,23 @@ a.linkedin:hover {
     color: var(--blue);
     border-color: var(--blue);
 }
+#ease-in {
+    animation: 2s anim ease-in;
+}
+@keyframes anim {
+    0% {
+        font-size: 0;
+        opacity: 0;
+    }
+    50% {
+        font-size: calc(2rem + 1.5vw);
+        opacity: .7;
+    }
+    100% {
+        font-size: calc(1.375rem + 1.5vw);
+        opacity: 1;
+    }
+}
 
 /* STAGE */
 #stage {
