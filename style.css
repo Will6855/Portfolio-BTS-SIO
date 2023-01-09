@@ -115,8 +115,8 @@ a.linkedin:hover {
     color: var(--blue);
     border-color: var(--blue);
 }
-#ease-in {
-    animation: 2s anim ease-in;
+#ease {
+    animation: 2s anim ease;
 }
 @keyframes anim {
     0% {
