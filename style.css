@@ -4,7 +4,7 @@
 
 body {
     /* background: linear-gradient(-45deg, #0693e3 0%,#000341 100%) fixed; */
-    background: url(img/bg.jpg) fixed no-repeat center;
+    background: url(img/bg3.jpg) fixed no-repeat center;
     background-size: cover;
     display: grid; 
     grid-template-rows: auto auto 1fr;
