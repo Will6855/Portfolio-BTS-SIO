@@ -79,12 +79,6 @@ footer {
 footer > p {
     margin: 0;
 }
-footer > a.btn {
-    border-radius: 10em;
-    padding: 0.4em;
-    border: 1px solid white;
-    padding-bottom: 7px;
-}
 a.github {
     content: url(/img/github-mark-white.svg);
     height: 40px;
@@ -92,7 +86,6 @@ a.github {
 }
 a.github:hover {
     content: url(/img/github-mark.svg);
-    background-color: white;
 }
 
 
