@@ -48,7 +48,7 @@ nav {
         linear-gradient(160deg, rgba(6, 146, 227, 0.5) 0%, rgba(0, 3, 65, 0.5) 100%) fixed, 
         url(img/bg.jpg) fixed no-repeat center;
     background-size: cover;
-    border-block: 2px solid var(--blue);
+    border: 2px solid var(--blue);
     padding-block: 4px;
 }
 nav a {
