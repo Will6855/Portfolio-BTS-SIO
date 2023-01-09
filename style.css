@@ -79,6 +79,10 @@ footer {
 footer > p {
     margin: 0;
 }
+footer > a.btn {
+    border-radius: 10em;
+    border: none;
+}
 a.github {
     content: url(/img/github-mark-white.svg);
     height: 40px;
