@@ -91,6 +91,14 @@ a.github {
 a.github:hover {
     content: url(/img/github-mark.svg);
 }
+a.linkedin {
+    content: url(/img/linkedin-mark-white.svg);
+    height: 40px;
+    width: auto;
+}
+a.linkedin:hover {
+    content: url(/img/linkedin-mark.svg);
+}
 
 
 
