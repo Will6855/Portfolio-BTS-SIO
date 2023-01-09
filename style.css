@@ -115,16 +115,6 @@ a.linkedin:hover {
     color: var(--blue);
     border-color: var(--blue);
 }
-div#typewriter {
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 0 auto;
-    animation: typing 8s steps(1000, end);
-  }
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
 
 /* STAGE */
 #stage {
