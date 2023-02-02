@@ -119,7 +119,7 @@ a.linkedin:hover {
     border-color: var(--blue);
 }
 #ease {
-    animation: 2s anim ease;
+    animation: 4s anim ease;
 }
 @keyframes anim {
     0% {
