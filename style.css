@@ -133,6 +133,22 @@ a.linkedin:hover {
         opacity: 1;
     }
 }
+@media (min-width: 1200px) {
+    @keyframes anim {
+        0% {
+            font-size: 0;
+            opacity: 0;
+        }
+        50% {
+            font-size: 3rem;
+            opacity: .7;
+        }
+        100% {
+            font-size: 2.5rem;
+            opacity: 1;
+        }
+    }
+}
 
 /* STAGE */
 #stage {
