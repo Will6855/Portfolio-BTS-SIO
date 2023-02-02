@@ -46,10 +46,11 @@ header {
 /* NAV */
 nav {
     background: 
-        linear-gradient(160deg, rgba(6, 146, 227, 0.5) 0%, rgba(0, 3, 65, 0.5) 100%) fixed, 
+        /* linear-gradient(160deg, rgba(6, 146, 227, 0.5) 0%, rgba(0, 3, 65, 0.5) 100%) fixed,  */
         url(img/675211.webp) fixed no-repeat center;
     background-size: cover;
-    border-block: 2px solid var(--blue);
+    /* border-block: 2px solid var(--blue); */
+    border-bottom: 2px solid #fff;
     padding-block: 4px;
 }
 nav a {
@@ -75,7 +76,8 @@ footer {
     /* background: linear-gradient(0deg, #00111c 0%,#047cf6 150%); */
     background: url(img/27271.webp) no-repeat center;
     background-size: cover;
-    border-top: 2px solid var(--blue);
+    /* border-top: 2px solid var(--blue); */
+    border-top: 2px solid #fff;
 }
 footer > p {
     margin: 0;
