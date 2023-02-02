@@ -72,8 +72,8 @@ nav a:hover {
 
 /* FOOTER */
 footer {
-    /* background: linear-gradient(0deg, #00111c 0%,#047cf6 150%); */
-    background: url(img/2727.jpg) no-repeat center;
+    background: linear-gradient(0deg, #00111c 0%,#047cf6 150%);
+    /* background: url(img/2727.jpg) no-repeat center; */
     background-size: cover;
     border-top: 2px solid var(--blue);
 }
