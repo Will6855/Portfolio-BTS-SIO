@@ -5,7 +5,7 @@
 
 body {
     /* background: linear-gradient(-45deg, #0693e3 0%,#000341 100%) fixed; */
-    background: url(img/675211.webp) fixed no-repeat center;
+    background: url(img/5172658.jpg) fixed no-repeat center;
     background-size: cover;
     display: grid; 
     grid-template-rows: auto auto 1fr;
@@ -40,17 +40,17 @@ section > p {
 /* HEADER */
 header {
     /* background: linear-gradient(160deg, rgb(6, 147, 227) 0%, rgb(0, 3, 65) 100%) fixed; */
-    background: url(img/675211.webp) fixed no-repeat center;
+    background: url(img/5172658.jpg) fixed no-repeat center;
     background-size: cover;
 }
 /* NAV */
 nav {
     background: 
         /* linear-gradient(160deg, rgba(6, 146, 227, 0.5) 0%, rgba(0, 3, 65, 0.5) 100%) fixed,  */
-        url(img/675211.webp) fixed no-repeat center;
+        url(img/5172658.jpg) fixed no-repeat center;
     background-size: cover;
     /* border-block: 2px solid var(--blue); */
-    border-bottom: 2px solid #fff;
+    /* border-bottom: 2px solid #fff; */
     padding-block: 4px;
 }
 nav a {
