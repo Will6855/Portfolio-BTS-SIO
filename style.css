@@ -87,7 +87,7 @@ footer > a.btn {
 a.github {
     content: url(/img/github-mark-white.svg);
     height: 40px;
-    width: 55px;
+    width: 53px;
 }
 a.github:hover {
     content: url(/img/github-mark.svg);
