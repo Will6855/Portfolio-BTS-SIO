@@ -35,6 +35,10 @@ section > p {
     margin-top: 1em;
 }
 
+.img{
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+}
 
 
 /* HEADER */
