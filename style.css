@@ -35,9 +35,18 @@ section > p {
     margin-top: 1em;
 }
 
-.img{
+.img {
     border: 2px solid var(--blue);
     border-radius: 10px;
+    margin-inline: auto
+}
+div:has(.img) {
+    display: flex;
+    align-items: center;
+}
+
+section:has(div > div > img) {
+    gap: 2em;
 }
 
 
