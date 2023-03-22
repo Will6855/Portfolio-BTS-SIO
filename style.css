@@ -45,7 +45,7 @@ div:has(.img) {
     align-items: center;
 }
 
-section:has(div > div > img) {
+section:has(article > div > img) {
     gap: 2em;
 }
 
