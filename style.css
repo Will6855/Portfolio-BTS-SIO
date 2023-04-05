@@ -60,7 +60,7 @@ header {
 nav {
     background: 
         /* linear-gradient(160deg, rgba(6, 146, 227, 0.5) 0%, rgba(0, 3, 65, 0.5) 100%) fixed,  */
-        url(img/5172658.webp) fixed no-repeat center;
+        url(img/5172658.jpg) fixed no-repeat center;
     background-size: cover;
     /* border-block: 2px solid var(--blue); */
     /* border-bottom: 2px solid #fff; */
@@ -187,12 +187,12 @@ input, textarea {
 }
 
 /* Realisations */
-#ghcard-Will6855 {
+#ghcard-Will6855-1 {
     height: 150px;
     width: 400px;
 }
 @media screen and (max-width: 500px){
-    #ghcard-Will6855 {
+    #ghcard-Will6855-1 {
         height: 200px;
         width: 200px;
     }
